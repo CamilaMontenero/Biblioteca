@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario Autor</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Formulario Autor</h1>
+    <form action="guardar_autor.php" method="POST">
+        <label for="nombre_autor">Nombre:</label>
+        <input type="text" name="nombre_autor" id="nombre_autor" required>
+
+        <label for="libros_autor">Número de libros:</label>
+        <input type="number" name="libros_autor" id="libros_autor" required>
+
+        <input type="submit" value="Guardar">
+    </form>
+</body>
+</html>
