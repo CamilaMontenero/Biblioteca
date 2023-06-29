@@ -2,7 +2,14 @@ body {
     margin: 0;
     padding: 50px;
     font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('fondo2.jpg');
+    background-size:cover; /* Ajusta la imagen dentro del tamaño de la pantalla */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que se repita la imagen de fondo */
 }
+
+
 
 .titulo {
     text-align: center;
@@ -21,7 +28,7 @@ h2 {
 }
 
 select {
-    width: 100%;
+    width: 25%;
     padding: 10px;
     border: 2px solid #ccc;
     border-radius: 5px;
