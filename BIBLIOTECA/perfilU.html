@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Mi perfil</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!--ajuste para diferentes pantallas-->
+     <style>
+        .header{
+           text-align: center;
+           align-items: center;
+           height: 300px;
+           padding: 12px;
+           background-image: url(descarga.png);
+        }
+      .avatar{
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 40px;
+      }
+      .user-name{
+        font-size: 40px;
+        margin-top: 14px;
+        color: rgb(120, 23, 23);
+        text-align: center;
+      }
+      .socials{
+        list-style: none;
+        text-align: center;
+        padding: 0;
+      }
+      .socials li{
+        display: inline-block;
+        margin: 5px;
+      }
+      a{
+        text-decoration: none;
+        color: rgb(128, 21, 21);
+      }
+      a:hover{
+      color: rgb(189, 121, 121);
+      }
+      .icon{
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        background-size: cover;
+        font-size: 30px;
+      }
+      .email{
+        background-image:url("gmail.png");
+      }
+      .facebook{
+        background-image: url("facebook.png");
+      }
+      .twitter{
+        background-image: url("gorjeo\ \(1\).png");
+      }
+
+      .about{
+        padding: 10px;
+      }
+      .about h3{
+        color: black;
+        font-size: 16px;
+      }
+      .about p{
+        color: black;
+        font-size: 14px;
+      }
+     </style>
+    </head>
+    <body>
+        <img id="imagen-perfil" src="ruta/imagen-perfil.jpg" alt="Foto de Perfil">
+        <input type="file" id="input-imagen" accept="image/*">
+        <div class="header"> <img class="avatar" src="icono.png"> </div>
+   
+            <h1 class="user-name">Camila</h1>
+        </div>
+
+        <ul class="socials">
+            <li>
+                <i class="icon email"></i>
+                <a href="mailto:acamila@gmail.com">acamila@gmail.com</a>
+            </li>
+            <li>
+                <i class="icon facebook"></i>
+              <a href="https://facebook.com/acamila">acamilah</a>
+            </li>
+            <li>
+                <i class="icon twitter "></i>
+                <a href="https://twitter.com/acamila">@acamilaht</a>
+              </li>
+        </ul>
+        <div class="about">
+            <h3>Sobre mi:</h3>
+            <textarea id="descripcion" rows="4" cols="50"></textarea>
+            
+        </div>
+
+    </body>
+</html>
