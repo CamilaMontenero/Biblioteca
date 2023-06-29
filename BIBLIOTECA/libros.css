@@ -1,33 +1,21 @@
 body{
-    background-color: rgb(#c7ebf9);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #dde5b6;
     font-size: 40px;
     text-align: center;
     width: 360px;
     padding: 20px;
     border-radius: 100px;
 }
-header{
-    width: 360px;
-    color: rgb(#22577a);
-    text-align: right;
-    font-size: 40px;
-    margin-left: 485px;
-}
 button {
     padding: 15px 25px;
     border: unset;
     border-radius: 15px;
-    color: #22577a;
+    color: #dde5b6;
     z-index: 1;
-    background: #80ed99;
+    background: #a98467;
     position: relative;
     font-weight: 1000;
     font-size: 17px;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(#57cc99);
-    box-shadow: 4px 8px 19px -3px rgba(#22577a);
     transition: all 250ms;
     overflow: hidden;
    }
@@ -40,7 +28,7 @@ button {
     height: 100%;
     width: 0;
     border-radius: 15px;
-    background-color: #38a3a5;
+    background-color: #6c584c;
     z-index: -1;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
