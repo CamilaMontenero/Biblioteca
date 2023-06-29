@@ -75,3 +75,72 @@ button {
     font-family: 'Belanosima', sans-serif;
     font-size: 30px;
    }
+
+
+
+---------------------------------------
+
+
+
+body{
+    background-color: #dde5b6;
+    font-size: 40px;
+    width: 360px;
+    padding: 20px;
+    border-radius: 100px;
+}
+button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #dde5b6;
+    z-index: 1;
+    background: #a98467;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #6c584c;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: #e8e8e8;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+   .tabla {
+    border-collapse: collapse; /* Combina los bordes de las celdas adyacentes */
+    width: 100%; /* Ajusta el ancho de la tabla al 100% del contenedor */
+  }
+  
+  .tabla th, .tabla td {
+    border: 5px solid black; /* Agrega un borde de 1px a todas las celdas */
+    padding: 8px; /* Agrega un espacio interno de 8px en las celdas */
+    text-align: left; /* Alinea el texto a la izquierda dentro de las celdas */
+    white-space: pre; /* Evita el salto de línea en el contenido de las celdas */    
+  }
+  td {
+    font-family: "Times New Roman", serif; /* Estilo de letra para una columna específica */
+    font-size: medium;
+  }
+  .tabla th {
+    background-color: #ce9e80; /* Cambia el color de fondo de las celdas de encabezado */
+  }
+  
