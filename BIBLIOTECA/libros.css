@@ -82,6 +82,9 @@ button {
 
    h1{
     font-family: 'Belanosima', sans-serif;
+    text-align: center;
+    width: 1400px;
+    font-size: 40px;
     }
     h1 {
         position: relative;
@@ -106,6 +109,8 @@ button {
    h3{
     font-family: 'Belanosima', sans-serif;
     font-size: 30px;
+    width: 1400px;
+    text-align: center;
    }
    .tabla {
     border-collapse: collapse; /* Combina los bordes de las celdas adyacentes */
@@ -128,5 +133,11 @@ button {
   }
   .tabla th {
     background-color: #ce9e80; /* Cambia el color de fondo de las celdas de encabezado */
+  }
+p{
+    text-align: center;
+    width: 1300px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 20px;
   }
   
