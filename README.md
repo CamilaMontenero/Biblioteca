@@ -14,8 +14,12 @@ Para utilizar la biblioteca web, simplemente necesitas tener acceso a internet y
 ## Participantes
 
 Montenegro Camila Shulamit
+
 Lobos Juliana Magali 
+
 Quiroga Buslemen Maria Angela
+
 Poblete Eliana 
+
 Valles Braian Sebastian
 
