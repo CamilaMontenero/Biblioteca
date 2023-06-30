@@ -8,10 +8,14 @@ Pasos para instalar y configurar el proyecto.
 
 ## Uso
 
-Para utilizar la biblioteca web, simplemente necesitas tener acceso a internet y un dispositivo con un navegador web. Luego, puedes registrarte, buscar y acceder a diferentes lista de libros, organizados por categorías y con reseñas. Además, podrás interactuar con otros usuarios, crear tu propio perfil y leer directamente los libros en línea. ¡Es como tener una biblioteca virtual en la palma de tu mano!"
+Para utilizar la biblioteca web, simplemente necesitas tener acceso a internet y un dispositivo con un navegador web. Luego, puedes registrarte con un nombre de usuario, una cuenta de Gmail y contraseña, buscar y acceder a diferentes lista de libros, organizados por categorías y con reseñas. Además podras crear tu propio perfil y leer directamente los libros en línea. ¡Es como tener una biblioteca virtual en la palma de tu mano!"
 
 
 ## Participantes
 
-na
+Montenegro Camila Shulamit
+Lobos Juliana Magali 
+Quiroga Buslemen Maria Angela
+Poblete Eliana 
+Valles Braian Sebastian
 
