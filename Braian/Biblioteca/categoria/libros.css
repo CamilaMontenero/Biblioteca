@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+body{
+    background-color: #F0EAD2;
+    border-radius: 100px;
+    align-items: center;
+    background-attachment: fixed;
+    max-width: 325px;
+    padding: 0px;
+    background-size: cover;
+    height: 320px;
+    background-repeat: no-repeat;
+}
+.linea {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 1px; /* Ajusta el valor a tu preferencia */
+    background-color: black; /* Ajusta el color a tu preferencia */
+  }
+  header h1{
+    width: 360px;
+    text-align: center;
+    color:#6c584c;
+    font-size: 50px;
+    margin-left: 480px;
+    font-family: 'Belanosima', sans-serif;
+  }
+  header p{
+    width: 500px;
+    color:#6c584c;
+    font-size: 30px;
+    margin-left: 470px;
+    font-family: 'Belanosima', sans-serif;
+  }
+button {
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 555px;
+    font-size: 25px; /* Designa el Espacio entre los botones,mientras mas alto el numero mas espacio le agrega*/
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #dde5b6;
+    z-index: 1;
+    background: #a98467;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #6c584c;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: #e8e8e8;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+   .botones{
+    align-items: center;
+   }
+
+   h1{
+    font-family: 'Belanosima', sans-serif;
+    text-align: center;
+    width: 1400px;
+    font-size: 40px;
+    }
+    h1 {
+        position: relative;
+      }
+ h1::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 100%;
+        height: 2px;
+        background-color:#6c584c; /* Cambia el color según tus preferencias */
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      h1:hover::after {
+        transform: scaleX(1);
+      }
+      
+      
+   h3{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 30px;
+    width: 1400px;
+    text-align: center;
+   }
+   .tabla {
+    border-collapse: collapse; /* Combina los bordes de las celdas adyacentes */
+    width: 100%; /* Ajusta el ancho de la tabla al 100% del contenedor */
+  }
+  
+  .tabla th, .tabla td {
+    border: 3px solid black; /* Agrega un borde de 1px a todas las celdas */
+    padding: 8px; /* Agrega un espacio interno de 8px en las celdas */
+    text-align: left; /* Alinea el texto a la izquierda dentro de las celdas */
+    white-space: pre; /* Evita el salto de línea en el contenido de las celdas */    
+  }
+  td {
+    font-family: 'Belanosima', sans-serif;
+    font-size: medium;
+  }
+  th{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 30px;
+  }
+  .tabla th {
+    background-color: #ce9e80; /* Cambia el color de fondo de las celdas de encabezado */
+  }
+p{
+    text-align: center;
+    width: 1300px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 20px;
+  }
+  
