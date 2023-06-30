@@ -5,7 +5,7 @@ Nuestro proyecto es una biblioteca web que ofrece a los usuarios la posibilidad 
 
 ## Uso
 
-Para utilizar la biblioteca web, simplemente necesitas tener acceso a internet y un dispositivo con un navegador web. Luego, puedes registrarte con un nombre de usuario, una cuenta de Gmail y contraseña, buscar y acceder a diferentes lista de libros, organizados por categorías y con reseñas. Además podras crear tu propio perfil y leer directamente los libros en línea. ¡Es como tener una biblioteca virtual en la palma de tu mano!"
+Para utilizar la biblioteca web, simplemente necesitas tener acceso a internet y un dispositivo con un navegador web. Luego, puedes registrarte con un nombre de usuario, una cuenta de mail y contraseña, buscar y acceder a diferentes lista de libros, organizados por categorías y con reseñas. Además podras crear tu propio perfil y leer directamente los libros en línea. ¡Es como tener una biblioteca virtual en la palma de tu mano!
 
 
 ## Instalación de BookSift
