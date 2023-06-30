@@ -10,7 +10,8 @@ Para utilizar la biblioteca web, simplemente necesitas tener acceso a internet y
 
 ## Instalación de BookSift
 
-S
+Para instalar nuestro proyecto hay que hacer clic en el botón verde "Code" y luego selecciona "Download ZIP" para descargar el proyecto completo en formato ZIP a tu computadora. Descomprime el archivo ZIP en una ubicación conveniente.
+Dentro de la carpeta descomprimida, busca el archivo principal del proyecto, denominado "index.html".Esto abrirá el archivo en tu navegador web predeterminado y te mostrará la página web generada por el proyecto.
 
 ## Participantes
 
