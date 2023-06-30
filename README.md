@@ -8,13 +8,9 @@ Pasos para instalar y configurar el proyecto.
 
 ## Uso
 
-Instrucciones sobre cómo utilizar el proyecto.
+Para utilizar la biblioteca web, simplemente necesitas tener acceso a internet y un dispositivo con un navegador web. Luego, puedes registrarte, buscar y acceder a diferentes lista de libros, organizados por categorías y con reseñas. Además, podrás interactuar con otros usuarios, crear tu propio perfil y leer directamente los libros en línea. ¡Es como tener una biblioteca virtual en la palma de tu mano!"
 
-## Contribución
+## Participantes
 
-Información para los colaboradores y cómo contribuir al proyecto.
-
-## Licencia
-
-Detalles sobre la licencia del proyecto.
+na
 
