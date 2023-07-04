@@ -15,7 +15,7 @@ Dentro de la carpeta descomprimida, busca el archivo principal del proyecto, den
 
 ## Participantes
 
-Montenegro Camila Shulamit
+Montenero Camila Shulamit
 
 Lobos Juliana Magali 
 
